@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Glassmorphsim</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <h2>01</h2>
+          <h3>Card One</h3>
+          <p>
+            Last year, during lockdown, many discovered the importance of PDF
+            forms when having to deal remotely with administrations and large
+            organizations like banks. Firefox supported displaying PDF forms,
+            but it didn’t support filling them...
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2>02</h2>
+          <h3>Card Two</h3>
+          <p>
+            Last year, during lockdown, many discovered the importance of PDF
+            forms when having to deal remotely with administrations and large
+            organizations like banks. Firefox supported displaying PDF forms,
+            but it didn’t support filling them...
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2>03</h2>
+          <h3>Card Three</h3>
+          <p>
+            Last year, during lockdown, many discovered the importance of PDF
+            forms when having to deal remotely with administrations and large
+            organizations like banks. Firefox supported displaying PDF forms,
+            but it didn’t support filling them...
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <script src="./vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
+
+      //It also supports NodeList
+      //   VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+  </body>
+</html>
